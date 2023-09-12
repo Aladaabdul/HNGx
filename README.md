@@ -53,3 +53,8 @@ This project exposes the following API endpoints for managing people:
 To run the Django development server and access the API, execute the following command:
 
 1. Python manage.py runserver
+
+# REMOTE SERVER URL
+Access remote server URL through "aladaabdul.pythonanywhere.com/api" to access the API ROOT
+and "aladaabdul.pythonanywhere.com/api/api" to access list of API PERSON
+and "aladaabdul.pythonanywhere.com/api/api/{id}" to access a API PERSON INSTANCE
