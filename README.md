@@ -5,28 +5,29 @@ This project includes a model, serializers, views, and URLs for handling person-
 # PROJECT STRUCTURE
 The project structure includes the following key components:
 
-1.people (Django app)
-2.models.py: Defines the Person model.
-3.serializers.py: Defines the DRF serializer for the Person model.
-4.views.py: Contains the viewsets and view functions for handling person data.
-5.urls.py: Defines the API endpoints for the Person model.
-6.manage.py: The Django management script.
-7.settings.py: Django project settings.
-8.urls.py: The project's main URL configuration.
+1. people (Django app)
+2. models.py: Defines the Person model
+3. serializers.py: Defines the DRF serializer for the Person model
+4. views.py: Contains the viewsets and view functions for handling person data
+5. urls.py: Defines the API endpoints for the Person model
+6. manage.py: The Django management script
+7. settings.py: Django project settings
+8. urls.py: The project's main URL configuration
 
 # GETTING STARTED
+
 1. clone the repository to your local machine
 2. Navigate to the project directory
 3. Create a virtual environment and activate it
-4. Install the project dependencies
-Apply database migrations
+4. Install the project dependencies and Apply database migrations
 
 # PERSON MODEL
+
 The Person model represents a person with a name. It includes the following fields:
 
-1.id: An integer field that serves as the primary key.
-2.name: A character field with a maximum length of 255 characters. 
-It uses a regex validator to ensure that names contain only letters and spaces.
+1. id: An integer field that serves as the primary key.
+2. name: A character field with a maximum length of 255 characters. 
+   It uses a regex validator to ensure that names contain only letters and spaces.
 
 # SERIALIZERS
 
@@ -42,11 +43,11 @@ It specifies the queryset and serializer class to us
 # API Endpoints
 This project exposes the following API endpoints for managing people:
 
-List People: GET /api/api/
-Create Person: POST /api/api/
-Retrieve Person: GET /api/api/{id}/
-Update Person: PUT /api/api/{id}/ or PATCH /api/people/{id}/
-Delete Person: DELETE /api/api/{id}/
+1. List People: GET /api/api/
+2. Create Person: POST /api/api/
+3. Retrieve Person: GET /api/api/{id}/
+4. Update Person: PUT /api/api/{id}/
+5. Delete Person: DELETE /api/api/{id}/
 
 # RUNNING THE PROJECT
 To run the Django development server and access the API, execute the following command:
